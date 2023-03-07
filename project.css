@@ -5,8 +5,11 @@
   list-style: none;
 }
 
-body {
+body,
+html {
   font-family: "Times New Roman", Times, serif;
+  height: 100%;
+  width: 100%;
 }
 
 nav {
@@ -45,4 +48,47 @@ a:hover {
 }
 nav #icon {
   color: black;
+}
+.menuhatter {
+  background-position: center;
+  background-repeat: round;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+a.home {
+  border: 1px solid white;
+  transition: 0.5s;
+}
+a.home:hover {
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+h1 {
+}
+
+.mrnav {
+  height: 80px;
+  width: 100%;
+  background: goldenrod;
+}
+.mrkep1 {
+  height: 50px;
+  width: 50px;
+  margin-top: 25px;
+  line-height: 80px;
+}
+
+div h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+div p {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 5px;
+  text-align: left;
+}
+div li {
+  margin-left: 5px;
 }
