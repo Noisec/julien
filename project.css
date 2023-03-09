@@ -83,12 +83,17 @@ div h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-left: 5px;
   margin-bottom: 5px;
+  font-size: 50px;
 }
 div p {
   font-family: "Times New Roman", Times, serif;
   margin-left: 5px;
   text-align: left;
+  font-size: 25px;
 }
 div li {
   margin-left: 5px;
+}
+.tdiv {
+  background-color: wheat;
 }
